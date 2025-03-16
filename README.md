@@ -48,7 +48,7 @@ chmod +x run.sh
 ```bash
 ./run.sh
 ```
-## X. Run Bot [ Burst Version ]
+## X. Run Bot [ Brutal Version ]
 - Run :
 ```bash
 for i in {1..50}; do pm2 start run.sh --name "gaia-chat-$i" --interpreter bash; done
