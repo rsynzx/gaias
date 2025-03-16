@@ -1,18 +1,18 @@
-# **🤖 Gaianet Bot**  
+# **Gaianet Bot 🤖**  
 just bot.
 
-## 🌟 Features  
+## Features 🌟
 - Gaia Prompt Automatic Request
 - Prompt Generator
 
-## 📋 Prerequisites
+## Prerequisites 📋
   
 ### Software Dependencies  
 - Python (3.8 or higher)  
 - Node.js (v14 or higher)  
 - npm (Node Package Manager)  
 
-## 🚀 Installation  
+## Installation 🚀
 
 ### 1. System Preparation  
 ```bash  
@@ -34,13 +34,13 @@ cd gaias-bot
 ````
 
 
-## 🛠️ Usage
+## Usage 🛠️
 Replace the domain with your specific domain in the 4th line of `run.sh`  
 ```bash
 nano run.sh
 ```
 
-## 🕹️ Run the bot 
+## Run the bot 🕹️
 1. Generate Keywords
 ```bash
 python3 keywords.py
@@ -79,13 +79,13 @@ pm2 logs
 pm2 stop all  
 ```
 
-## 📋 Contributing
+## Contributing 📋
 Feel free to submit issues and enhancement requests.
 
-## 📜 License
+## License 📜 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🚨 Disclaimer
+## Disclaimer 🚨 
 This tool is for educational purposes only. Use at your own risk and responsibility.
 
 @Source-code :
