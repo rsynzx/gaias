@@ -34,8 +34,13 @@ cd gaias-bot
 ````
 
 
-## Usage
-- Run the bot 
+## 🛠️ Usage
+Replace the domain with your specific domain in the 4th line of `run.sh`  
+```bash
+nano run.sh
+```
+
+## 🕹️ Run the bot 
 1. Generate Keywords
 ```bash
 python3 keywords.py
@@ -60,7 +65,7 @@ for i in {1..50}; do pm2 start run.sh --name "gaia-chat-$i" --interpreter bash; 
   - High-end: `{1..500}` 
   - Abnormal `{1..5000}` 
 
-## 🛡️ Management Commands  
+## X. Management Commands  
 - List running instances
 ```bash  
 pm2 list  
@@ -83,4 +88,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 🚨 Disclaimer
 This tool is for educational purposes only. Use at your own risk and responsibility.
 
-@Source-code : https://github.com/winsnip/gaiabot-winsnip
+@Source-code :
+- https://github.com/winsnip/gaiabot-winsnip
+- https://github.com/Dwentzart/boted
